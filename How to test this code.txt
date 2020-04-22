@@ -1,0 +1,17 @@
+1. Download or clone this repository, unzip it once downloaded.
+
+2. Open command prompt ---(Windows button + R) -> type cmd -> enter
+
+3. Change the directory to the working directory in command prompt 
+    (Where our downlaoded python files are available)
+    -----In the command prompt type --> |cd 'our path'| to change the path. (ignore the | symbols)
+
+4. Enter the below command to test for image input.
+   python detect_faces.py --image rooster.jpg --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+
+5. Close the opened window by python interpretor.
+
+6. Enter the below command to test for video input.
+   python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+   
+7. Close the opened window by python interpretor.
