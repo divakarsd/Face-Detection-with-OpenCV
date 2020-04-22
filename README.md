@@ -1,5 +1,5 @@
 # Face-Detection-with-OpenCV
-###### Face Detection with OpenCV and Deep learning in Python
+## Face Detection with OpenCV and Deep learning in Python
 
 You can perform fast, accurate face detection with OpenCV using a pre-trained deep learning face detector model shipped with the library.
 
@@ -16,3 +16,7 @@ When using OpenCV’s deep neural network module with Caffe models, you’ll nee
 ********The .caffemodel file which contains the weights for the actual layers********
 
 ********Both files are required when using models trained using Caffe for deep learning.********
+
+
+Source for this project:
+https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
